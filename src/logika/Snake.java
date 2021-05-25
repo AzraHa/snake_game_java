@@ -18,7 +18,7 @@ public class Snake {
 	/**
 	 * varijabla za provjeru poteza
 	 */
-	public static int PROMIJENJEN;
+	public static int PROMIJENJEN = 0;
 	
 	/**
 	 *@param potez varijabla za spremanje poteza
@@ -121,6 +121,7 @@ public class Snake {
 				  else if(tabla[red][kolona] == -1) System.out.print("@  ");
 				  
 				  else System.out.print("O  ");
+				  //ako bi ispisivali tabla[red][kolona] ispisivalo bi X1234567...
 
 				  if(tabla[red][kolona] == -1) nema_hrane = false;
 			  }

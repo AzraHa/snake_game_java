@@ -47,7 +47,7 @@ public class GamePanel extends JPanel {
 		snake = new Snake();
 		tabela = snake.setTable(dimenzija);
 		
-		snake.postaviHranu(tabela);
+		//snake.postaviHranu(tabela);
 		snake.postaviZmiju(tabela);
 		
 		setLayout(new BorderLayout());

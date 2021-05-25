@@ -31,7 +31,7 @@ public class Main {
 			    
 		    	/**sve dok unesene komande nisu ok , trazi od korisnika unos**/
 			    
-		    	while(s.potez!='w' & s.potez!='a' & s.potez!='s' & s.potez!='d' & s.potez!='q' & s.potez!='\n') {
+		    	while(Snake.potez!='w' & Snake.potez!='a' & Snake.potez!='s' & Snake.potez!='d' & Snake.potez!='q' & Snake.potez!='\n') {
 			    	 
 		    		System.out.println("Pogresan unos. Unesite neki od sljedecih znakova \n w = GORE, a = LIJEVO, s = DOLE, d = DESNO, q = KRAJ");
 			    	 
@@ -41,7 +41,7 @@ public class Main {
 		      
 		    	}
 	
-		    	s.promijeniTablu(tabla, s.prethodni_potez);
+		    	s.promijeniTablu(tabla, Snake.prethodni_potez);
 		      		      
 		    	System.out.println('\n');
 		      
@@ -49,7 +49,7 @@ public class Main {
 		      
 		    	System.out.println('\n');
 	
-		    } while (s.potez != 'q');
+		    } while (Snake.potez != 'q');
 	
 		    System.out.println("Kraj igre.");
 
