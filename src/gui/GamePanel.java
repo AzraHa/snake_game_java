@@ -101,29 +101,28 @@ public class GamePanel extends JPanel {
 	/**KeyListener za kontrolu poteza **/
 	class MojKeyListener implements KeyListener {
 
-		@SuppressWarnings("static-access")
 		@Override
 		public void keyPressed(KeyEvent arg0) {
 			
 			if (arg0.getExtendedKeyCode() == 87) {
 				
 				snake.pomjeriZmiju(tabela,'w');
-				snake.prethodni_potez = 'w';
+				Snake.prethodni_potez = 'w';
 				
 			} else if (arg0.getExtendedKeyCode() == 65) {
 				
 				snake.pomjeriZmiju(tabela,'a');
-				snake.prethodni_potez = 'a';
+				Snake.prethodni_potez = 'a';
 				
 			} else if (arg0.getExtendedKeyCode() == 83) {
 				
 				snake.pomjeriZmiju(tabela,'s');
-				snake.prethodni_potez = 's';
+				Snake.prethodni_potez = 's';
 
 			} else if (arg0.getExtendedKeyCode() == 68) {
 				
 				snake.pomjeriZmiju(tabela,'d');
-				snake.prethodni_potez = 'd';
+				Snake.prethodni_potez = 'd';
 			}
 			osvjeziStanjeTabele();
 		}

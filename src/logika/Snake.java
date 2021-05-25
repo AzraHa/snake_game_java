@@ -16,7 +16,7 @@ public class Snake {
 	public static int REZULTAT; 
 	 
 	/**
-	 * varijabla za provjeru poteza
+	 *@param varijabla za provjeru poteza
 	 */
 	public static int PROMIJENJEN = 0;
 	
@@ -270,7 +270,7 @@ public class Snake {
 
 				  REZULTAT += 1;
 				  
-				  System.out.println("Rezultat: " + REZULTAT);
+				  //System.out.println("Rezultat: " + REZULTAT);
 				  
 				  postaviHranu(tabla);
 			  }
@@ -300,7 +300,7 @@ public class Snake {
 				  
 				  REZULTAT += 1;
 				  
-				  System.out.println("Rezultat: " + REZULTAT);
+				  //System.out.println("Rezultat: " + REZULTAT);
 				  
 				  postaviHranu(tabla);
 				  
@@ -332,7 +332,7 @@ public class Snake {
 				  
 				  REZULTAT += 1;
 				  
-				  System.out.println("Rezultat: " + REZULTAT);
+				  //System.out.println("Rezultat: " + REZULTAT);
 				  
 				  postaviHranu(tabla);
 				  
@@ -365,7 +365,7 @@ public class Snake {
 				  
 				  REZULTAT += 1;
 				  
-				  System.out.println("Rezultat: " + REZULTAT);
+				  //System.out.println("Rezultat: " + REZULTAT);
 				  
 				  postaviHranu(tabla);
 				  
